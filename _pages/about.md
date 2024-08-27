@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Francesco Pio Ramunno - Personal Blog
+title: "Francesco Pio Ramunno - Personal Blog"
 author_profile: true
 redirect_from: 
   - /about/
