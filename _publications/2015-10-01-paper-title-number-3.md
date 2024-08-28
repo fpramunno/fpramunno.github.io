@@ -1,14 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "Modelling Solar Images from SDO/AIA with Denoising Diffusion Probabilistic Models"
 collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+category: conferences
+permalink: /publication/2024-02-17-paper-title-number-4
+date: 2023/11/20
+venue: 'European Space Weather Week, 2023'
+slidesurl: 'http://fpramunno.github.io/files/ESWW_conference_presentation.pdf'
+citation: 'Francesco Pio Ramunno, Andre Csillaghy.'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Solar flares have the potential to cause geomagnetic storms, which can endanger astronauts and disrupt airline communications. These disturbances also have an impact on modern technology, specifically high-frequency radio systems. Consequently, there is a need to predict these events, particularly high-energy solar flares such as M-and X-class flares. However, the field of Heliophysics lacks sufficient X-flare data to train a supervised algorithm for flare forecasting, resulting in an unbalanced dataset due to the rarity of these physical events. To overcome this issue, generative deep learning models can be utilized to produce synthetic images representing solar activity. In this study, we trained a denoising diffusion probabilistic model. The dataset was sourced from the AIA instrument on the SDO spacecraft, specifically the 17.1 Å band, which captures images of coronal loops, filaments, flares, and active regions. The GOES X-ray measurements were employed to classify each image based on the solar flare scale (A, B, C, M, X), after selecting the flaring images from the AIA instrument using the HEK dataset, which allows for accurate temporal localization of the flaring events. The generative model's performance was evaluated using cluster metrics, FID, and the F1-score. Cluster metrics enable comparison between the generated image distribution and the real image distribution. We demonstrated state-of-the-art results in generating Sun images and developed an application that utilized these generated images to train a supervised classifier. The addition of synthetic samples was used to demonstrate their effectiveness in addressing the dataset.
