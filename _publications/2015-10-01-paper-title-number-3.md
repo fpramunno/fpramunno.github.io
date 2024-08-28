@@ -4,6 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
 date: 2023/11/20
+excerpt: ''
 venue: 'European Space Weather Week, 2023'
 slidesurl: 'http://fpramunno.github.io/files/ESWW_conference_presentation.pdf'
 citation: 'Francesco Pio Ramunno, Andre Csillaghy.'
