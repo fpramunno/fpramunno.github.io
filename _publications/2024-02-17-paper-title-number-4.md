@@ -3,7 +3,7 @@ title: "Modelling Solar Images from SDO/AIA with Denoising Diffusion Probabilist
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: ''
 date: 2023/4
 venue: 'INTERNATIONAL WORKSHOP ON MACHINE LEARNING AND COMPUTER VISION IN HELIOPHYSICS, Sofia (Bulgaria)'
 slidesurl: 'http://fpramunno.github.io/files/Sofia_conference_Francesco_Pio_Ramunno.pdf'
