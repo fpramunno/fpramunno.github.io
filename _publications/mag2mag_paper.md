@@ -2,10 +2,10 @@
 title: "Magnetogram-to-Magnetogram: Generative Forecasting of Solar Evolution"
 collection: publications
 category: manuscripts
-permalink: 'http://fpramunno.github.io/files/MagnetogramtoMagnetogram_Generative_Forecasting_of_Solar_Evolution.pdf'
+permalink: /publication/mag2mag_paper
 date: 2024-10-01
 venue: 'Proceedings of SPAICE2024: The First Joint European Space Agency / IAA Conference on AI in and for Space, 17-19 September 2024'
-paperurl: 'http://fpramunno.github.io/files/magnetogram_to_magnetogram.pdf'
+paperurl: 'http://fpramunno.github.io/files/MagnetogramtoMagnetogram_Generative_Forecasting_of_Solar_Evolution.pdf'
 citation: 'Ramunno, F. P., Jeong, H.-J., Hackstein, S., Csillaghy, A., Voloshynovskiy, S., & Georgoulis, M. K. (2024). "Magnetogram-to-Magnetogram: Generative Forecasting of Solar Evolution." <i>Proceedings of SPAICE2024: The First Joint European Space Agency / IAA Conference on AI in and for Space</i>, 75-80. <a href="https://ui.adsabs.harvard.edu/abs/2024sais.conf...75R">doi: 10.5281/zenodo.13885515</a>.'
 ---
 
