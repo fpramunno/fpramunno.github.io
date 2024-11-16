@@ -1,17 +1,18 @@
 ---
-title: "Solar synthetic imaging: Introducing denoising diffusion probabilistic models on SDO/AIA data"
+title: "Magnetogram-to-Magnetogram: Generative Forecasting of Solar Evolution"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-date: 2024-03-09
-venue: 'Astronomy & Astrophysics'
-paperurl: 'http://fpramunno.github.io/files/solar_synthetic_imaging.pdf'
-citation: 'Ramunno, F. P., Hackstein, S., Kinakh, V., Drozdova, M., Quétant, G., Csillaghy, A., & Voloshynovskiy, S. (2024). "Solar synthetic imaging: Introducing denoising diffusion probabilistic models on SDO/AIA data." <i>Astronomy & Astrophysics</i>. 686(A285).
-'
+permalink: 'http://fpramunno.github.io/files/MagnetogramtoMagnetogram Generative Forecasting of Solar Evolution.pdf'
+date: 2024-10-01
+venue: 'Proceedings of SPAICE2024: The First Joint European Space Agency / IAA Conference on AI in and for Space, 17-19 September 2024'
+paperurl: 'http://fpramunno.github.io/files/magnetogram_to_magnetogram.pdf'
+citation: 'Ramunno, F. P., Jeong, H.-J., Hackstein, S., Csillaghy, A., Voloshynovskiy, S., & Georgoulis, M. K. (2024). "Magnetogram-to-Magnetogram: Generative Forecasting of Solar Evolution." <i>Proceedings of SPAICE2024: The First Joint European Space Agency / IAA Conference on AI in and for Space</i>, 75-80. <a href="https://ui.adsabs.harvard.edu/abs/2024sais.conf...75R">doi: 10.5281/zenodo.13885515</a>.'
 ---
 
-For the luck of humanity, there are way less big solar flares than small ones. Even if these are good news, this makes it challenging to train machine learning algorithms able to model solar activity. As a result, solar monitoring applications, including flare forecasting, suffer from this lack of input data. To overcome this issue, generative deep learning models can be utilised to produce synthetic images representing solar activity and thus compensating the rarity of big events. This study aims to develop a method that can generate synthetic images of the Sun with the ability to include flare of a specific intensity. To achieve our goals, we introduce a Denoising Diffusion Probabilistic Model (DDPM). We train it with a carefully crafted dataset from the Atmospheric Image Assembly (AIA) instrument on the SDO spacecraft, specifically the 171 Å band, which captures images of coronal loops, filaments, flares, and active regions. GOES X-ray measurements are employed to classify each image based on the solar flare scale (A, B, C, M, X), after selecting the flaring images from AIA using the Heliophysics Event Knowledgebase, which allows for temporal localisation of the flaring events. The generative model performance is evaluated using cluster metrics, Fréchet Inception Distance (FID), and the F1-score. We demonstrate state-of-the-art results in generating solar images and conduct two experiments that use the synthetic images. The first experiment trains a supervised classifier to identify those events. The second experiment trains a basic solar flare predictor. The experiments demonstrate the effectiveness of additional synthetic samples to addressing the problem of imbalanced datasets. We believe this is only the beginning of DDPM use with solar data. It remains to gain a better understanding of the generation capabilities of the denoising diffusion probabilistic models in the contest of solar flare predictions and apply them to other deep learning and physical tasks, such as AIA to HMI (Helioseismic and Magnetic Imager) image translation.
+Investigating the solar magnetic field is crucial to understand the physical processes in the solar interior as well as their effects on the interplanetary environment. We introduce a novel method to predict the evolution of the solar line-of-sight (LoS) magnetogram using image-to-image translation with Denoising Diffusion Probabilistic Models (DDPMs). Our approach combines "computer science metrics" for image quality and "physics metrics" for physical accuracy to evaluate model performance. The results indicate that DDPMs are effective in maintaining the structural integrity, the dynamic range of solar magnetic fields, the magnetic flux and other physical features such as the size of the active regions, surpassing traditional persistence models, also in flaring situation. We aim to use deep learning not only for visualisation but as an integrative and interactive tool for telescopes, enhancing our understanding of unexpected physical events like solar flares. Future studies will aim to integrate more diverse solar data to refine the accuracy and applicability of our generative model. Visit https://github.com/fpramunno/MAG2MAG for the code and https://huggingface.co/spaces/fpramunno/mag2mag for the interactive tool.
 
-<br/><img src='/images/for_back_DDPM (2).png'>
+<br/><img src='/images/std_map__.png'>
 
-<br/><img src='/images/for_back_DDPM (3).png'>
+<br/><img src='/images/pred (3).png'>
+
+
