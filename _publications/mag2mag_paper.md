@@ -2,7 +2,7 @@
 title: "Magnetogram-to-Magnetogram: Generative Forecasting of Solar Evolution"
 collection: publications
 category: manuscripts
-permalink: 'http://fpramunno.github.io/files/MagnetogramtoMagnetogram Generative Forecasting of Solar Evolution.pdf'
+permalink: 'http://fpramunno.github.io/files/MagnetogramtoMagnetogram_Generative_Forecasting_of_Solar_Evolution.pdf'
 date: 2024-10-01
 venue: 'Proceedings of SPAICE2024: The First Joint European Space Agency / IAA Conference on AI in and for Space, 17-19 September 2024'
 paperurl: 'http://fpramunno.github.io/files/magnetogram_to_magnetogram.pdf'
