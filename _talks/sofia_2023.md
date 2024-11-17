@@ -2,7 +2,7 @@
 title: "Modelling Solar Images from SDO/AIA with Denoising Diffusion Probabilistic Models"
 collection: talks
 category: talks
-permalink: 
+permalink: /talks/sofia_2023
 excerpt: ''
 date: 2023/4
 venue: 'INTERNATIONAL WORKSHOP ON MACHINE LEARNING AND COMPUTER VISION IN HELIOPHYSICS, Sofia (Bulgaria)'
