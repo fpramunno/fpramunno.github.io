@@ -1,4 +1,5 @@
 ---
+layout: archive
 title: "Francesco Pio Ramunno - Resume"
 sitemap: /
 permalink: /cv.html
