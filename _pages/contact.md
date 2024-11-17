@@ -9,7 +9,7 @@ redirect_from:
 
 Feel free to reach out using the form below!
 
-<form action="/send-email.php" method="POST">
+<form action="https://formspree.io/f/xovqlqao" method="POST">
   <div>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -17,7 +17,7 @@ Feel free to reach out using the form below!
 
   <div>
     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+    <input type="email" id="email" name="_replyto" required>
   </div>
 
   <div>
