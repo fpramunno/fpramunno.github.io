@@ -1,6 +1,6 @@
 ---
 title: "Francesco Pio Ramunno - Resume"
-sitemap: false
+sitemap: /
 permalink: /cv.html
 ---
 
