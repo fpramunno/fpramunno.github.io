@@ -7,8 +7,6 @@ redirect_from:
   - /contact
 ---
 
-# Contact Me
-
 Feel free to reach out using the form below!
 
 <form action="/send-email.php" method="POST">
