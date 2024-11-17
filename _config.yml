@@ -233,14 +233,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-    values:
+      comments: true
       share: true
       related: true
   # _pages
   - scope:
       path: ""
       type: pages
-  values:
+    values:
       layout: single
       author_profile: true
       show_excerpts: true
