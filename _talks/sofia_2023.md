@@ -1,6 +1,6 @@
 ---
 title: "Modelling Solar Images from SDO/AIA with Denoising Diffusion Probabilistic Models"
-collection: publications
+collection: talks
 category: talks
 permalink: 
 excerpt: ''
