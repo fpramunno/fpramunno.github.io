@@ -1,5 +1,11 @@
+---
+title: "Francesco Pio Ramunno - Resume"
+sitemap: false
+permalink: /cv.html
+---
 
-<embed src="/files/cv_fpr_last.pdf" type="application/pdf" width="100%" height="800px">
+<iframe src="https://fpramunno.github.io/files/cv_fpr_last.pdf" width="100%" height="800px"></iframe>
+
 
 
 
