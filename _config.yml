@@ -279,6 +279,14 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _blogs
+  - scope:
+      path: ""
+      type: blogs
+    values:
+      layout: blog
+      author_profile: true
+      share: true
 
 
 # Sass/SCSS
