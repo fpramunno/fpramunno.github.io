@@ -9,7 +9,11 @@ redirect_from:
 
 Bio
 ======
-Hello, my name is Francesco Pio Ramunno and I am a PhD student at the University of Geneva (Switzerland), in collaboration with the University of Applied Sciences Northwestern Switzerland in Brugg/Windisch. My research bridges Deep Learning and Solar Physics, with a focus on generative models, video forecasting, and diffusion-based architectures. I work on applying and benchmarking state-of-the-art models—such as DDPMs and latent diffusion—for complex spatio-temporal prediction tasks involving real-world physics data from the Sun. In this blog, I share updates on my research, including slides, code, and publications that reveal the scientific and methodological thinking behind my work. Feel free to reach out via email for any questions or collaborations!
+Hello, my name is Francesco Pio Ramunno, and I am a PhD student at the University of Geneva (Switzerland), in collaboration with the University of Applied Sciences Northwestern Switzerland in Brugg/Windisch. My research bridges Deep Learning and Solar Physics, with a particular focus on diffusion-based generative models, video forecasting, and spatio-temporal prediction using real-world data from the Sun.
+
+While my current work is rooted in solar physics—applying and benchmarking state-of-the-art architectures such as DDPMs and latent diffusion models—I am deeply interested in the theoretical foundations of these models. I enjoy exploring how their modular design, interpretability, and generative capacity can be extended to other scientific domains. My broader research interests include video understanding, semantic segmentation, scene understanding, image generation and restoration, and multi-modal AI. Ultimately, my goal is to develop AI tools that are not only effective for physical modeling but also broadly applicable and scientifically interpretable across disciplines.
+
+In this blog, I share updates on my research, including slides, code, and publications that reflect both the scientific challenges and the methodological innovation behind my work. Feel free to reach out via email if you’re interested in connecting or collaborating!
 
 Work Experience
 ======
