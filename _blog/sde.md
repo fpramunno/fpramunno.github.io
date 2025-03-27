@@ -1,14 +1,11 @@
 ---
 title: 'Notes on "Score-Based Generative Modeling through Stochastic Differential Equations"'
 collection: blogs
-category: blogs
 permalink: /blog/sde
-excerpt: ''
-date: null
-venue: null
-slidesurl: null
-citation: 'Francesco Pio Ramunno'
+layout: single
+author_profile: true
 ---
+
 Personal hand-written notes on the paper "Score-Based Generative Modeling through Stochastic Differential Equations" by Song et al 2021. 
 
 Digital page coming soon.
