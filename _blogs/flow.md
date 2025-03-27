@@ -1,7 +1,7 @@
 ---
 title: 'Notes on "Flow Matching for Generative Modeling"'
 collection: blogs
-permalink: /blog/sde
+permalink: /blog/flow
 layout: single
 author_profile: true
 ---
