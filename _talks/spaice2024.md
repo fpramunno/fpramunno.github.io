@@ -6,7 +6,7 @@ permalink: /talk/spaice2024
 excerpt: ''
 date: 2024/09/17
 venue: 'ESA SPAICE 2024 conference (17-19 September 2024)'
-slidesurl: 'http://fpramunno.github.io/files/AstronomyAstrophysics_FrancescoPio (1).pdf'
+slidesurl: 'http://fpramunno.github.io/files/AstronomyAstrophysics_FrancescoPio%20(1).pdf'
 citation: 'Francesco Pio Ramunno, Andre Csillaghy. 1(3).'
 ---
 
