@@ -9,9 +9,7 @@ redirect_from:
 
 Bio
 ======
-Hello, my name is Francesco Pio Ramunno and I am a PhD student at the University of Geneva (Switzerland) in collaboration with the University of Applied Sciences Northwestern Switzerland in Brugg/Windisch (CH). My research focuses both on the Deep Learning side and the Solar Physics side with the aim to exploit new science using the new techniques of artificial intelligence to predict and understand the unknown features of the Sun.
-In this blog you will be updated on my latest advancements in the research field and you will also find the material (slides, papers, code snippets, ...) I use to better understand the flow of thoughts behind my articles.
-For any question feel free to send me an email! 
+Hello, my name is Francesco Pio Ramunno and I am a PhD student at the University of Geneva (Switzerland), in collaboration with the University of Applied Sciences Northwestern Switzerland in Brugg/Windisch. My research bridges Deep Learning and Solar Physics, with a focus on generative models, video forecasting, and diffusion-based architectures. I work on applying and benchmarking state-of-the-art models—such as DDPMs and latent diffusion—for complex spatio-temporal prediction tasks involving real-world physics data from the Sun. In this blog, I share updates on my research, including slides, code, and publications that reveal the scientific and methodological thinking behind my work. Feel free to reach out via email for any questions or collaborations!
 
 Work Experience
 ======
