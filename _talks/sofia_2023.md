@@ -4,7 +4,7 @@ collection: talks
 category: talks
 permalink: /talk/sofia_2023
 excerpt: ''
-date: 2023/4
+date: 2023-04-01
 venue: 'INTERNATIONAL WORKSHOP ON MACHINE LEARNING AND COMPUTER VISION IN HELIOPHYSICS, Sofia (Bulgaria)'
 slidesurl: 'http://fpramunno.github.io/files/Sofia_conference_Francesco_Pio_Ramunno.pdf'
 citation: 'Francesco Pio Ramunno, Andre Csillaghy. 1(3).'

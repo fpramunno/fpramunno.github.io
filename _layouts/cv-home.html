@@ -1,0 +1,108 @@
+---
+layout: cv-base
+---
+{% assign cv = site.data.cv %}
+
+<section class="cv-section cv-intro" id="about">
+  <p class="eyebrow">Hello, I'm</p>
+  <h2 class="intro__name">{{ site.author.name }}</h2>
+  <p class="intro__tagline">{{ site.author.bio }}</p>
+  <div class="prose">
+    {{ content }}
+  </div>
+</section>
+
+<section class="cv-section" id="experience">
+  <h2 class="section-title">Experience</h2>
+  {% for job in cv.experience %}
+  <article class="entry">
+    <div class="entry__when">{{ job.dates }}</div>
+    <div class="entry__body">
+      <h3 class="entry__title">{{ job.role }}</h3>
+      <p class="entry__org">{{ job.org }} <span class="entry__place">· {{ job.place }}</span></p>
+      {% if job.note %}<p class="entry__note">{{ job.note }}</p>{% endif %}
+      {% if job.summary %}<p>{{ job.summary }}</p>{% endif %}
+      {% if job.bullets %}
+      <ul>
+        {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="cv-section" id="education">
+  <h2 class="section-title">Education</h2>
+  {% for ed in cv.education %}
+  <article class="entry">
+    <div class="entry__when">{{ ed.dates }}</div>
+    <div class="entry__body">
+      <h3 class="entry__title">{{ ed.degree }}</h3>
+      <p class="entry__org">{{ ed.org }} <span class="entry__place">· {{ ed.place }}</span></p>
+      {% if ed.note %}<p class="entry__note">{{ ed.note }}</p>{% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</section>
+
+<section class="cv-section" id="publications">
+  <h2 class="section-title">Publications</h2>
+  {% assign papers = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+  {% for p in papers %}
+    {% include cv-pub.html pub=p %}
+  {% endfor %}
+  <p class="more"><a href="{{ '/publications/' | relative_url }}">All publications &amp; conference abstracts →</a></p>
+</section>
+
+<section class="cv-section" id="talks">
+  <h2 class="section-title">Talks</h2>
+  {% assign talks = site.talks | sort: "date" | reverse %}
+  <ul class="compact-list">
+  {% for t in talks %}
+    <li>
+      <span class="compact-list__when">{{ t.date | date: "%b %Y" }}</span>
+      <span class="compact-list__what">
+        <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+        <span class="compact-list__sub">{{ t.venue }}</span>
+        {% if t.slidesurl %}<a class="pill" href="{{ t.slidesurl }}">Slides</a>{% endif %}
+      </span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section class="cv-section" id="skills">
+  <h2 class="section-title">Skills</h2>
+  <dl class="skills">
+    {% for s in cv.skills %}
+    <dt>{{ s.label }}</dt>
+    <dd>{{ s.items }}</dd>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="cv-section" id="blog">
+  <h2 class="section-title">Blog &amp; notes</h2>
+  <ul class="compact-list">
+  {% for post in site.blogs %}
+    <li>
+      <span class="compact-list__when"><i class="fa-regular fa-note-sticky"></i></span>
+      <span class="compact-list__what"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></span>
+    </li>
+  {% endfor %}
+  </ul>
+</section>
+
+<section class="cv-section" id="contact">
+  <h2 class="section-title">Contact</h2>
+  <p>I'm always happy to talk about research, collaborations or anything in between. Write me at <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> or use the form below.</p>
+  <form class="contact-form" action="https://formspree.io/f/xovqlqao" method="POST">
+    <div class="contact-form__row">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="_replyto" required></label>
+    </div>
+    <label>Message<textarea name="message" rows="5" required></textarea></label>
+    <button type="submit">Send message</button>
+  </form>
+</section>

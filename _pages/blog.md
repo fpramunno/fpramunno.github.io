@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: cv-page
 title: "Blog"
 permalink: /blog/
 author_profile: true

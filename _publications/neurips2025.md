@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/neurips2025
 date: 2025-12-01
 venue: 'Advances in Neural Information Processing Systems 38 (NeurIPS 2025), Main Track'
+authors: 'R. Morel, F. P. Ramunno, J. Shen, A. Bietti, K. Cho, M. Cranmer, S. Golkar, et al., D. Fouhey, S. Ho'
 paperurl: 'https://arxiv.org/abs/2511.19390'
 citation: 'Morel, R., Ramunno, F. P., Shen, J., Bietti, A., Cho, K., Cranmer, M., Golkar, S., Gugnin, O., Krawezik, G., Marwah, T., McCabe, M., Meyer, L., Mukhopadhyay, P., Ohana, R., Parker, L., Qu, H., Rozet, F., Leka, K. D., Lanusse, F., Fouhey, D., & Ho, S. (2025). "Predicting partially observable dynamical systems via diffusion models with a multiscale inference scheme." <i>Advances in Neural Information Processing Systems 38</i>, 66787–66805. <a href="https://arxiv.org/abs/2511.19390">arXiv:2511.19390</a>.'
 ---

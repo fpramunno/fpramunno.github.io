@@ -2,7 +2,7 @@
 title: 'Notes on "Flow Matching for Generative Modeling"'
 collection: blogs
 permalink: /blog/flow
-layout: single
+layout: cv-page
 author_profile: true
 ---
 

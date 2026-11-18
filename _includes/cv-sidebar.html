@@ -1,0 +1,39 @@
+{% assign a = site.author %}
+{% assign home = "/" | relative_url %}
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar__inner">
+    <a href="{{ home }}" class="sidebar__avatar-link">
+      <img src="{{ '/images/avatar.jpg' | relative_url }}" alt="{{ a.name }}" class="sidebar__avatar">
+    </a>
+    <h1 class="sidebar__name"><a href="{{ home }}">{{ a.name }}</a></h1>
+    <p class="sidebar__role">{{ a.bio }}</p>
+    {% if a.location %}<p class="sidebar__meta"><i class="fa-solid fa-location-dot"></i> {{ a.location }}</p>{% endif %}
+
+    <button class="sidebar__toggle" aria-controls="sidebar-nav" aria-expanded="false" onclick="this.parentNode.classList.toggle('is-open');this.setAttribute('aria-expanded',this.parentNode.classList.contains('is-open'))">
+      <i class="fa-solid fa-bars"></i> Menu
+    </button>
+
+    <nav class="sidebar__nav" id="sidebar-nav">
+      <ul>
+        <li><a href="{{ home }}#about" data-section="about">About</a></li>
+        <li><a href="{{ home }}#experience" data-section="experience">Experience</a></li>
+        <li><a href="{{ home }}#education" data-section="education">Education</a></li>
+        <li><a href="{{ home }}#publications" data-section="publications">Publications</a></li>
+        <li><a href="{{ home }}#talks" data-section="talks">Talks</a></li>
+        <li><a href="{{ home }}#skills" data-section="skills">Skills</a></li>
+        <li><a href="{{ home }}#blog" data-section="blog">Blog</a></li>
+        <li><a href="{{ home }}#contact" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <ul class="sidebar__social">
+      {% if a.email %}<li><a href="mailto:{{ a.email }}" title="Email"><i class="fa-solid fa-envelope"></i></a></li>{% endif %}
+      {% if a.googlescholar %}<li><a href="{{ a.googlescholar }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a></li>{% endif %}
+      {% if a.github %}<li><a href="https://github.com/{{ a.github }}" title="GitHub"><i class="fa-brands fa-github"></i></a></li>{% endif %}
+      {% if a.linkedin %}<li><a href="https://www.linkedin.com/in/{{ a.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>{% endif %}
+      {% if a.orcid %}<li><a href="{{ a.orcid }}" title="ORCID"><i class="ai ai-orcid"></i></a></li>{% endif %}
+    </ul>
+
+    <a class="sidebar__cv" href="{{ '/files/cv_fpr.pdf' | relative_url }}"><i class="fa-regular fa-file-lines"></i> Download CV</a>
+  </div>
+</aside>

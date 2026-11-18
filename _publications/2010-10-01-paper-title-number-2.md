@@ -2,11 +2,12 @@
 title: "Magnetogram-to-Magnetogram (M2M): Generative Forecasting of Solar Evolution"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-date: 2023/12/11
+permalink: /publication/agu2023
+date: 2023-12-11
 excerpt: ''
 venue: 'American Geophysical Union (AGU) 2023, San Francisco, USA'
-slidesurl: 'http://fpramunno.github.io/files/AGU_conference (1).pdf'
+authors: 'F. P. Ramunno, A. Csillaghy'
+slidesurl: '/files/AGU_conference%20(1).pdf'
 citation: 'Francesco Pio Ramunno, Andre Csillaghy.'
 ---
 

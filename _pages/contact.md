@@ -1,33 +1,18 @@
 ---
-layout: archive
-title: "Contact Me"
+layout: cv-page
+title: "Contact"
 permalink: /contact/
-author_profile: true
 redirect_from:
   - /contact
 ---
 
-Feel free to reach out using the form below!
+Write me at <a href="mailto:frarampio@gmail.com">frarampio@gmail.com</a> or use the form below.
 
-<form action="https://formspree.io/f/xovqlqao" method="POST">
-  <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+<form class="contact-form" action="https://formspree.io/f/xovqlqao" method="POST">
+  <div class="contact-form__row">
+    <label>Name<input type="text" name="name" required></label>
+    <label>Email<input type="email" name="_replyto" required></label>
   </div>
-
-  <div>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="_replyto" required>
-  </div>
-
-  <div>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-  </div>
-
-  <button type="submit">Send Message</button>
+  <label>Message<textarea name="message" rows="5" required></textarea></label>
+  <button type="submit">Send message</button>
 </form>
-
-<p>Alternatively, you can reach me at <a href="mailto:frarampio@gmail.com">frarampio@gmail.com</a>.</p>
-
-

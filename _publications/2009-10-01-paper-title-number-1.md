@@ -2,10 +2,13 @@
 title: "Solar synthetic imaging: Introducing denoising diffusion probabilistic models on SDO/AIA data"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/solar-synthetic-imaging
+redirect_from:
+  - /publication/2009-10-01-paper-title-number-1
 date: 2024-03-09
 venue: 'Astronomy & Astrophysics'
-paperurl: 'http://fpramunno.github.io/files/solar_synthetic_imaging.pdf'
+authors: 'F. P. Ramunno, S. Hackstein, V. Kinakh, M. Drozdova, G. Quétant, A. Csillaghy, S. Voloshynovskiy'
+paperurl: 'https://arxiv.org/abs/2404.02552'
 citation: 'Ramunno, F. P., Hackstein, S., Kinakh, V., Drozdova, M., Quétant, G., Csillaghy, A., & Voloshynovskiy, S. (2024). "Solar synthetic imaging: Introducing denoising diffusion probabilistic models on SDO/AIA data." <i>Astronomy & Astrophysics</i>, 686, A285. <a href="https://arxiv.org/abs/2404.02552">arXiv:2404.02552</a>.'
 ---
 

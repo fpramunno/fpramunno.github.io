@@ -2,7 +2,7 @@
 title: 'Notes on "Score-Based Generative Modeling through Stochastic Differential Equations"'
 collection: blogs
 permalink: /blog/sde
-layout: single
+layout: cv-page
 author_profile: true
 ---
 

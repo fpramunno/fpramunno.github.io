@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/electric_potential_2026
 date: 2026-09-25
 venue: 'arXiv preprint (submitted to Journal of Geophysical Research: Machine Learning and Computation)'
+authors: 'F. P. Ramunno, S. Mestici, I. Coco, M. Walach, S. Massetti, M. F. Marcucci, B. Panos, A. Csillaghy'
 paperurl: 'https://arxiv.org/abs/2609.31804'
 citation: 'Ramunno, F. P., Mestici, S., Coco, I., Walach, M., Massetti, S., Marcucci, M. F., Panos, B., & Csillaghy, A. (2026). "Electric Potential Patterns Forecasting in the Southern Hemisphere with Deep Learning Techniques." <i>arXiv preprint</i>. <a href="https://arxiv.org/abs/2609.31804">arXiv:2609.31804</a>.'
 ---

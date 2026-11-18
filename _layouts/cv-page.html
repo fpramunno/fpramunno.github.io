@@ -1,0 +1,30 @@
+---
+layout: cv-base
+---
+<article class="page">
+  <p class="page__back"><a href="{{ '/' | relative_url }}">← Back to CV</a></p>
+  <header class="page__header">
+    <h1 class="page__title">{{ page.title }}</h1>
+    {% if page.authors %}<p class="pub__authors">{{ page.authors | replace: "F. P. Ramunno", "<strong>F. P. Ramunno</strong>" }}</p>{% endif %}
+    {% if page.venue %}<p class="pub__venue">{{ page.venue }}{% if page.collection == "talks" or page.collection == "publications" %} · {{ page.date | date: "%B %Y" }}{% endif %}</p>{% endif %}
+    {% if page.paperurl or page.slidesurl or page.codeurl or page.demourl %}
+    <p class="pub__links">
+      {% if page.paperurl %}<a class="pill" href="{{ page.paperurl }}">Paper</a>{% endif %}
+      {% if page.slidesurl %}<a class="pill" href="{{ page.slidesurl }}">Slides</a>{% endif %}
+      {% if page.codeurl %}<a class="pill" href="{{ page.codeurl }}">Code</a>{% endif %}
+      {% if page.demourl %}<a class="pill" href="{{ page.demourl }}">Demo</a>{% endif %}
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="prose">
+    {{ content }}
+  </div>
+
+  {% if page.citation and page.collection == "publications" %}
+  <div class="citation">
+    <p class="citation__label">Recommended citation</p>
+    <p>{{ page.citation }}</p>
+  </div>
+  {% endif %}
+</article>

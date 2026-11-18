@@ -1,0 +1,75 @@
+# Contenuto strutturato del CV mostrato nella home page.
+# Modifica qui esperienze, formazione e competenze: la pagina si aggiorna da sola.
+
+experience:
+  - role: "AI Research Scientist"
+    org: "Sony AI"
+    place: "Zurich, Switzerland"
+    dates: "Dec 2026 – present"
+    summary: "AI for Chip Design team, working on machine learning for semiconductor devices."
+
+  - role: "Research Scientist Intern in Machine Learning"
+    org: "Sony AI"
+    place: "Zurich, Switzerland"
+    dates: "Feb 2026 – Aug 2026"
+    bullets:
+      - "Designed a scalable dual-attention transformer for PDE surrogate modeling on large semiconductor meshes (500k+ nodes), combining global token attention with adaptive sparse local refinement."
+      - "Improved the state of the art by more than 30% on open-source 2D/3D PDE benchmarks and on Sony's in-house semiconductor simulation datasets."
+      - "Integrated the architecture into Sony AI's production semiconductor simulation framework. First-author paper submitted to ICLR 2027."
+
+  - role: "AI Foundation Models for Science Intern"
+    org: "Polymathic AI (Simons Foundation)"
+    place: "New York City, USA"
+    dates: "Mar 2025 – Aug 2025"
+    note: "Supervisors: Rudy Morel, David Fouhey"
+    bullets:
+      - "Built and scaled data pipelines for a 100+ TB multimodal spatio-temporal NASA solar dataset, synchronizing 14 modalities."
+      - "Designed diffusion-based video models for long-horizon scientific forecasting, reducing exposure bias compared with autoregressive baselines. Published at NeurIPS 2025 (Main Track)."
+      - "Scaled high-resolution multi-channel diffusion models to distributed training on up to 32 NVIDIA H200 GPUs."
+
+  - role: "Data Science and Machine Learning Intern"
+    org: "European Space Agency (ESA)"
+    place: "Frascati, Italy"
+    dates: "Mar 2022 – Aug 2022"
+    note: "Supervisors: Marco Micheli, Juan-Luis Cano"
+    bullets:
+      - "Built end-to-end pipelines combining orbital, physical and chemical properties of near-Earth objects from heterogeneous databases."
+      - "Trained ML models (XGBoost, Random Forests) that halved the RMSE of classical regression baselines for asteroid composition prediction."
+      - "Delivered reproducible workflows and documentation to the ESA Near-Earth Object Coordination Centre (NEOCC)."
+
+  - role: "Data Science Intern"
+    org: "University of Rome Tor Vergata"
+    place: "Rome, Italy"
+    dates: "Mar 2021 – Aug 2021"
+    summary: "Morphological analysis of XMM-Newton X-ray data with wavelet filtering, improving parameter measurement accuracy by more than 30%."
+
+education:
+  - degree: "PhD in Deep Learning and Astrophysics"
+    org: "University of Geneva & FHNW"
+    place: "Switzerland"
+    dates: "2022 – 2026"
+    note: "Supervisors: Prof. Slava Voloshynovskiy, Prof. André Csillaghy"
+
+  - degree: "MSc in Astrophysics and Space Science"
+    org: "University of Rome Tor Vergata"
+    place: "Rome, Italy"
+    dates: "2020 – 2022"
+    note: "110/110 with honours · Supervisors: Dario Del Moro, Juan-Luis Cano, Marco Micheli"
+
+  - degree: "BSc in Mathematics"
+    org: "Università degli Studi della Basilicata"
+    place: "Potenza, Italy"
+    dates: "2017 – 2020"
+    note: "110/110 with honours · Thesis advisor: Prof. Ermenegildo Caccese"
+
+skills:
+  - label: "Research areas"
+    items: "Scientific ML, Generative Modeling, Diffusion Models, Transformers, PDE Surrogates, Graph Neural Networks, Computer Vision, Video Generation, Uncertainty Quantification"
+  - label: "ML frameworks"
+    items: "PyTorch, JAX, Scikit-learn, Hugging Face, WandB"
+  - label: "Engineering"
+    items: "Distributed Training, HPC, SLURM, Linux, Docker, Git, Large-scale Data Pipelines"
+  - label: "Programming"
+    items: "Python, MATLAB, IDL, Bash"
+  - label: "Languages"
+    items: "Italian (native), English (C2), German (A1)"

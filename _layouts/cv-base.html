@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if page.title and page.url != "/" %}
+  <title>{{ page.title | strip_html }} · {{ site.author.name }}</title>
+  {% else %}
+  <title>{{ site.author.name }} · {{ site.author.bio }}</title>
+  {% endif %}
+  <meta name="description" content="{% if page.excerpt and page.url != '/' %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.author.name }}, {{ site.author.bio }}.{% endif %}">
+  <meta property="og:title" content="{{ page.title | default: site.author.name | strip_html }}">
+  <meta property="og:image" content="{{ '/images/avatar.jpg' | absolute_url }}">
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/cv.css' | relative_url }}">
+
+  {% if page.mathjax %}
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  {% endif %}
+</head>
+<body class="{% if page.url == '/' %}is-home{% endif %}">
+  <div class="layout">
+    {% include cv-sidebar.html %}
+    <main class="content" id="main">
+      {{ content }}
+      <footer class="footer">
+        © {{ site.time | date: "%Y" }} {{ site.author.name }}
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    // Evidenzia nella sidebar la sezione visibile (solo in home).
+    (function () {
+      var links = document.querySelectorAll('.sidebar__nav a[data-section]');
+      var sections = document.querySelectorAll('.cv-section[id]');
+      if (!sections.length) return;
+      var byId = {};
+      links.forEach(function (l) { byId[l.dataset.section] = l; });
+      var obs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting && byId[e.target.id]) {
+            links.forEach(function (l) { l.classList.remove('is-active'); });
+            byId[e.target.id].classList.add('is-active');
+          }
+        });
+      }, { rootMargin: '-30% 0px -60% 0px' });
+      sections.forEach(function (s) { obs.observe(s); });
+      links.forEach(function (l) {
+        l.addEventListener('click', function () {
+          document.querySelector('.sidebar__inner').classList.remove('is-open');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% assign p = include.pub %}
+<article class="entry pub">
+  <div class="entry__when">{{ p.date | date: "%Y" }}</div>
+  <div class="entry__body">
+    <h3 class="entry__title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    {% if p.authors %}<p class="pub__authors">{{ p.authors | replace: "F. P. Ramunno", "<strong>F. P. Ramunno</strong>" }}</p>{% endif %}
+    <p class="pub__venue">{{ p.venue }}</p>
+    <p class="pub__links">
+      {% if p.paperurl %}<a class="pill" href="{{ p.paperurl }}">Paper</a>{% endif %}
+      {% if p.slidesurl %}<a class="pill" href="{{ p.slidesurl }}">Slides</a>{% endif %}
+      {% if p.codeurl %}<a class="pill" href="{{ p.codeurl }}">Code</a>{% endif %}
+      {% if p.demourl %}<a class="pill" href="{{ p.demourl }}">Demo</a>{% endif %}
+      <a class="pill pill--ghost" href="{{ p.url | relative_url }}">Abstract</a>
+    </p>
+  </div>
+</article>

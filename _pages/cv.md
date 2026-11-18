@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: cv-page
 title: "CV"
 permalink: /cv/
 author_profile: true
