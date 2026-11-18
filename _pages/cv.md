@@ -7,8 +7,6 @@ redirect_from:
   - /resume
 ---
 
-<iframe src="https://fpramunno.github.io/files/cv_fpr_last.pdf" width="100%" height="800px"></iframe>
+[Download CV (PDF)](/files/cv_fpr.pdf)
 
-
-
-
+<iframe src="/files/cv_fpr.pdf" width="100%" height="800px"></iframe>

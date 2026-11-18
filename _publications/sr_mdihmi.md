@@ -6,7 +6,7 @@ permalink: /publication/sr_mdihmi
 date: 2025-04-01
 venue: 'Astronomy and Astrophysics'
 paperurl: 'http://fpramunno.github.io/files/2503.24271v1.pdf'
-citation: 'Ramunno, F. P., Massa, P., Kinakh, V., Panos, B., Csillaghy, A., & Voloshynovskiy, S. (2025). Enhancing Image Resolution of Solar Magnetograms: A Latent Diffusion Model Approach. arXiv preprint. <a href="https://arxiv.org/abs/2503.24271">arXiv:2503.24271</a>.'
+citation: 'Ramunno, F. P., Massa, P., Kinakh, V., Panos, B., Csillaghy, A., & Voloshynovskiy, S. (2025). "Enhancing Image Resolution of Solar Magnetograms: A Latent Diffusion Model Approach." <i>Astronomy & Astrophysics</i>, 698, A140. <a href="https://doi.org/10.1051/0004-6361/202453205">doi:10.1051/0004-6361/202453205</a> | <a href="https://arxiv.org/abs/2503.24271">arXiv:2503.24271</a>.'
 ---
 
  The spatial properties of the solar magnetic field are crucial to decoding the physical processes in the solar interior and their inter

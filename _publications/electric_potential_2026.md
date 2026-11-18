@@ -1,0 +1,12 @@
+---
+title: "Electric Potential Patterns Forecasting in the Southern Hemisphere with Deep Learning Techniques"
+collection: publications
+category: manuscripts
+permalink: /publication/electric_potential_2026
+date: 2026-09-25
+venue: 'arXiv preprint (submitted to Journal of Geophysical Research: Machine Learning and Computation)'
+paperurl: 'https://arxiv.org/abs/2609.31804'
+citation: 'Ramunno, F. P., Mestici, S., Coco, I., Walach, M., Massetti, S., Marcucci, M. F., Panos, B., & Csillaghy, A. (2026). "Electric Potential Patterns Forecasting in the Southern Hemisphere with Deep Learning Techniques." <i>arXiv preprint</i>. <a href="https://arxiv.org/abs/2609.31804">arXiv:2609.31804</a>.'
+---
+
+Space weather disturbances driven by the solar wind can degrade satellite navigation, disrupt radio communications, and threaten power infrastructure, making accurate forecasting of the high-latitude ionosphere's response a critical operational need. Existing approaches, empirical climatological models and physics-based magnetohydrodynamic simulations, either smooth out the ionosphere's time-dependent, non-linear response or are too computationally expensive for real-time use, while prior machine learning efforts have mostly targeted scalar indices rather than the full spatial structure of ionospheric convection. Here we train and compare three deep learning architectures, a probabilistic diffusion model conditioned on multi-variate solar wind and interplanetary magnetic field measurements at the L1 Lagrange point, an unconditioned diffusion ablation, and a deterministic U-Net baseline, to forecast Southern Hemisphere high-latitude electric potential maps derived from SuperDARN radar observations. Using five years (2020–2025) of SuperDARN data synchronised with DSCOVR L1 measurements, we evaluate the models under a single-pass regime, an extended autoregressive rollout of up to 350 frames, and an out-of-distribution case study on the intense March 2015 St. Patrick's Day storm, unseen during training. We find that the relative advantage of the deterministic and probabilistic approaches is not fixed: the deterministic model is competitive over short horizons and calm conditions, while the diffusion model's advantage grows and eventually dominates as the forecast horizon lengthens and the event becomes more dynamic, evidence that probabilistic, sample-based generative models are the more promising direction for operational, long-horizon space weather forecasting.
